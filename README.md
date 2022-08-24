@@ -22,13 +22,14 @@ GVM interface offer different interfaces for autio-video visulization such as
 
 # Installation
 Use php command and run with build-in web server:
+
 php -S 127.0.0.1:8000
 
 In case of using an updated macOS, the php is not installed. It can be installed by brew package.
 
 brew install php
 
-# Citation:
+# Citation
 
 
 
