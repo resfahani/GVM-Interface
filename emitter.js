@@ -3,10 +3,8 @@
  * This enables projects to create/control the useability of the project.
 */
 var video =document.querySelector(".video");
-var video2 =document.querySelector(".video2");
 
 video.muted= true;
-video2.muted= true;
 
 
 var ee = playlist.getEventEmitter();
@@ -111,19 +109,20 @@ updateTime(audioPos);
 /*
 * Code below sets up events to send messages to the playlist.
 */
-// $container.on("click", ".btn-playlist-state-group", function() {
-//   //reset these for now.
-//   $('.btn-fade-state-group').addClass('hidden');
-//   $('.btn-select-state-group').addClass('hidden');
 
-//   if ($('.btn-select').hasClass('active')) {
-//     $('.btn-select-state-group').removeClass('hidden');
-//   }
+$container.on("click", ".btn-playlist-state-group", function() {
+   //reset these for now.
+   $('.btn-fade-state-group').addClass('hidden');
+   $('.btn-select-state-group').addClass('hidden');
 
-//   if ($('.btn-fadein').hasClass('active') || $('.btn-fadeout').hasClass('active')) {
-//     $('.btn-fade-state-group').removeClass('hidden');
-//   }
-// });
+   if ($('.btn-select').hasClass('active')) {
+     $('.btn-select-state-group').removeClass('hidden');
+   }
+
+   if ($('.btn-fadein').hasClass('active') || $('.btn-fadeout').hasClass('active')) {
+     $('.btn-fade-state-group').removeClass('hidden');
+   }
+ });
 
 $container.on("click", ".btn-annotations-download", function() {
   ee.emit("annotationsrequest");
@@ -137,16 +136,16 @@ $container.on("click", ".btn-loop", function() {
 $container.on("click", ".btn-play", function() {
   ee.emit("play");
   video.play();
-  video2.play();
 
+  
 });
 
 $container.on("click", ".btn-pause", function() {
   isLooping = false;
   ee.emit("pause");
   video.pause();
-  video2.pause();
 
+  
 });
 
 $container.on("click", ".btn-stop", function() {
@@ -154,9 +153,8 @@ $container.on("click", ".btn-stop", function() {
   ee.emit("stop");
   video.pause();
   video.currentTime = 0;
-  video2.pause();
-  video2.currentTime = 0;
-    
+
+  
 });
 
 $container.on("click", ".btn-rewind", function() {
@@ -164,9 +162,8 @@ $container.on("click", ".btn-rewind", function() {
   ee.emit("rewind");
   video.pause()
   video.currentTime = 0;
-  video2.pause()
-  video2.currentTime = 0;
 
+  
 });
 
 $container.on("click", ".btn-fast-forward", function() {
@@ -174,8 +171,8 @@ $container.on("click", ".btn-fast-forward", function() {
   ee.emit("fastforward");
   video.pause();
   video.currentTime = 0;
-  video2.pause();
-  video2.currentTime = 0;
+
+    
 });
 
 $container.on("click", ".btn-clear", function() {

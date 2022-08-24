@@ -1,5 +1,10 @@
 var video =document.querySelector('.video');
-var video2 =document.querySelector('.video2');
+
+
+function ToInt32(x) {
+    return x | 0;
+}
+
 
 var WaveformPlaylist =
 /******/ (function(modules) { // webpackBootstrap
@@ -1772,6 +1777,7 @@ var WaveformPlaylist =
 	          _this2.lastSeeked = start;
 	          _this2.pausedAt = undefined;
 	          _this2.restartPlayFrom(start);
+
 	        } else {
 	          // reset if it was paused.
 	          _this2.seek(start, end, track);
@@ -2254,8 +2260,10 @@ var WaveformPlaylist =
 	      var playoutPromises = [];
           video.currentTime = this.ac.currentTime ;
 
+          
 	      var start = startTime || this.pausedAt || this.cursor;
 	      var end = endTime;
+          
 	
 	      if (!end && selected.end !== selected.start && selected.end > start) {
 	        end = selected.end;
@@ -2288,7 +2296,7 @@ var WaveformPlaylist =
 	      }
 	
 	      this.pausedAt = this.getCurrentTime();
-          video.currentTime = this.getCurrentTime();
+          //video.currentTime = this.getCurrentTime();
 	      return this.playbackReset();
 	    }
 	  }, {
@@ -2326,6 +2334,9 @@ var WaveformPlaylist =
 	      return this.stop().then(function () {
 	        _this9.scrollLeft = 0;
 	        _this9.ee.emit('select', 0, 0);
+            //video.currentTime = this.ac.currentTime ;
+
+            
 	      });
 	    }
 	  }, {
@@ -2427,10 +2438,15 @@ var WaveformPlaylist =
 	      var selection = this.getTimeSelection();
 	      var cursorPos = cursor || this.cursor;
 	      var elapsed = currentTime - this.lastDraw;
-	
+	        this.ee.emit('timeupdate', playbackSeconds);
+            if(ToInt32(this.ac.currentTime * 10000) % 500 == 0) {
+                video.currentTime = this.getCurrentTime() ;
+            }
+
 	      if (this.isPlaying()) {
 	        var playbackSeconds = cursorPos + elapsed;
-	        this.ee.emit('timeupdate', playbackSeconds);
+
+
 	        this.animationRequest = window.requestAnimationFrame(function () {
 	          _this14.updateEditor(playbackSeconds);
 	        });
@@ -5730,8 +5746,7 @@ var WaveformPlaylist =
 	        }
 	      } else {
 	        start = startTime - this.startTime;
-            video2.currentTime = start;
-            video.currentTime = start;
+            //video.currentTime = start;
 
 	        if (endTime) {
 	          duration = Math.min(segment, this.duration - start);
@@ -7188,6 +7203,8 @@ var WaveformPlaylist =
 	      var startTime = (0, _conversions.pixelsToSeconds)(startX, this.samplesPerPixel, this.sampleRate);
 	
 	      this.track.ee.emit('select', startTime, startTime, this.track);
+          video.currentTime = this.getCurrentTime();
+
 	    }
 	  }], [{
 	    key: 'getClass',
@@ -7245,6 +7262,8 @@ var WaveformPlaylist =
 	      var endTime = (0, _conversions.pixelsToSeconds)(maxX, this.samplesPerPixel, this.sampleRate);
 	
 	      this.track.ee.emit('select', startTime, endTime, this.track);
+          video.currentTime = this.getCurrentTime() ;
+
 	    }
 	  }, {
 	    key: 'complete',
@@ -7262,6 +7281,8 @@ var WaveformPlaylist =
 	      var startTime = (0, _conversions.pixelsToSeconds)(this.startX, this.samplesPerPixel, this.sampleRate);
 	
 	      this.track.ee.emit('select', startTime, startTime, this.track);
+          video.currentTime = this.getCurrentTime() ;
+
 	    }
 	  }, {
 	    key: 'mousemove',
@@ -7873,6 +7894,9 @@ var WaveformPlaylist =
 	    key: 'play',
 	    value: function play(when, start, duration) {
 	      this.source.start(when, start, duration);
+                video.currentTime = start ;
+            
+
 	    }
 	  }, {
 	    key: 'stop',

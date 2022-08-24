@@ -4,7 +4,7 @@
 }
 
 body {
-	color: #333;
+	color: #0F5773;
 	font: 14px Sans-Serif;
 	padding: 50px;
 	background: #eee;
@@ -22,7 +22,7 @@ h2 {
 }
 
 #container {
-	box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);
+	box-shadow: 0 5px 10px -5px rgba(0,0,0,1);
 	position: relative;
 	background: white; 
 }
@@ -35,7 +35,7 @@ table {
 }
 
 th {
-	background-color: #FE4902;
+	background-color: #0F5773;
 	color: #FFF;
 	cursor: pointer;
 	padding: 5px 10px;

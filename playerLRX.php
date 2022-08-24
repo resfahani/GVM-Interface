@@ -15,14 +15,17 @@
     $n = 0;
 	$Nn=count($DirMP3[$_GET['varname']]);
 	for($index=0; $index < $Nn; $index++) {
-	if (strpos($DirMP3[$_GET['varname']][$index],"ALRX")){
+	if (strpos($DirMP3[$_GET['varname']][$index],"ALR")){
 	$AHDS[$n]=$DirMP3[$_GET['varname']][$index];
 	$n = $n+1;
 	}
 	}
-	
-	?>
+    //$NAHDS = shell_exec("python FreqDit.py $AHDS[0] $AHDS[1] $AHDS[2]");
+    ?>
 <div>
+
+
+
 <div class="layer1">
 
     <div id="container1" class="video-container" >

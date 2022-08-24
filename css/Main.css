@@ -1,57 +1,93 @@
 
 
 .layer1{
-    position: relative;
-    top: 1%;
-    left:1%;
-    right:99%;
-    width: 99%;
-    height: 50%;
-    bottom :50%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.layerRecord{
+    position: absolute;
+    height: 95%;
+    width: 95%;
+
+    
+}
+/*.Info{
+    position: absolute;
+    left:5%;
+    top: 0%;
+    width:15%;
+    height: 60%;
+    padding: 50px;
+    border: 3px solid black;
+}*/
+
+.video{
+    position: absolute;
+    left:5%;
+    top: 0%;
+    height:65%;
+    width:90%;
+    object-fit: fill;
+    boarder:5px solid black;
 }
 
 .layer2{
-    position: relative;
-    top: 52%;
-    left:1%;
-    right:99%;
-    width: 99%;
-    height: 50%;
-}
-
-.video-container2{
-    position:relative;
-    top: 1%;
-    width:45%;
-    left:55%;
-    bottom :48%;
-    right:95%;
+    position: absolute;
+    top:65%;
+    left:0%;
+    width: 95%;
+    height:10;
+    zoom: 80%;
 
 }
 
-.video-container{
-    position:absolute;
-    top: 1%;
-    width:45%;
-    left:1%;
-    right:50%;
-    bottom :48%;
+
+.LayerAudio{ 
+    position: absolute;
+    top:0%;
+    left:0%;
+    width: 95%;
+    height:10;
+    zoom: 100%;
 }
+
+
+.btn-group button {
+  background-color: #0F5773; /* Green background */
+  border: 1px solid black; /* Green border */
+  color: white; /* White text */
+  padding: 10px 50px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
 
 .playlist {
   margin: 2em 0; }
   .playlist .playlist-time-scale {
     height: 30px; }
   .playlist .playlist-tracks {
-    background: #E0EFF1; }
+    background: #66858a; }
   .playlist .channel {
     background: grey; }
   .playlist .channel-progress {
-    background: orange; }
+    background: white; }
   .playlist .cursor {
-    background: black; }
+    background: gray; }
   .playlist .wp-fade {
-    background-color: rgba(0, 0, 0, 0.1); }
+    background-color: rgba(0, 0.0, 0.0, 0.5); }
   .playlist .state-cursor,
   .playlist .state-select {
     cursor: text; }
@@ -64,7 +100,7 @@
   .playlist .selection.point {
     background: red; }
   .playlist .selection.segment {
-    background: rgba(0, 0, 0, 0.1); }
+    background: rgba(0, 0.0, 0.0, 0.5); }
   .playlist .channel-wrapper.silent .channel {
     opacity: 0.3; }
   .playlist .controls {
@@ -73,12 +109,12 @@
     .playlist .controls header {
       overflow: hidden;
       color: white;
-      background-color: blueviolet;
+      background-color: #0F5773;
       margin-bottom: 1em;
       height: 20px; }
     .playlist .controls label {
       margin: 1em auto;
-      width: 100%;
+      width: 50%;
       display: inline-block;
       font: normal normal normal 14px/1 FontAwesome;
       font-size: inherit;
@@ -195,17 +231,17 @@
             color: orange;
             cursor: pointer; }
   .playlist .annotations .current {
-    background-color: #EBF4F6; }
+    background-color: #e0eff1; }
 
 .playlist .vocals {
-  background-color: #c0dce0; }
+  background-color: #e0eff1; }
   .playlist .vocals header {
-    background-color: green; }
+    background-color: #e0eff1; }
 
 .track-drop {
   border: 2px dashed blue;
   height: 100px;
-  width: 200px;
+  width: 100px;
   margin: 1em 0; }
   .track-drop::before {
     content: "Drop audio file(s) here!"; }
