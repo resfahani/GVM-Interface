@@ -2,11 +2,10 @@
 **A Interface for visulization of audio and video data.**
 
 
-
 The interface is written in PHP and Javascript languages. 
 
-#Getting started
-GVM interface offer different interfaces for autio-video visulization containing:
+# Getting started
+GVM interface offer different interfaces for autio-video visulization such as
 
 ###### Record Section Mode
 
