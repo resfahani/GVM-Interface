@@ -1,11 +1,11 @@
 # GVM-Interface
-**A Interface for visulization of audio and video data.**
+**A Interface for visualization of audio and video data.**
 
 
-The interface is written in PHP and Javascript languages. 
+The interface is written in the PHP and Javascript languages. 
 
 # Getting started
-GVM interface offer different interfaces for autio-video visulization such as
+GVM interface offers different interfaces for audio-video visualization such as
 
 ###### Record Section Mode
 
@@ -21,15 +21,17 @@ GVM interface offer different interfaces for autio-video visulization such as
 ###### Meta Information
 
 # Installation
-Use php command and run with build-in web server:
+Use the php command and run the built-in web server:
 
 php -S 127.0.0.1:8000
 
-In case of using an updated macOS, the php is not installed. It can be installed by brew package.
+In the case of using a macOS, the PHP can be installed by using the brew package.
 
 brew install php
 
 # Citation
+
+# References
 
 
 
