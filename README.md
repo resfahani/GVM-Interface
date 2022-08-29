@@ -18,7 +18,7 @@ In this display mode, the recording location, the relative position of the singe
 Selecting this mode starts the original pywebaudioplayer (Pauwels and Sandler, 2018) for the three headset microphone tracks, for which the cross talk has been somewhat reduced by using the information about the voice activity of each singer contained in the corresponding larynx microphone recording. 
 
 ### F0-Trajectory Mode
-In the ‘F0-trajectory Mode’, which is the most elaborate display mode implemented in the GVM player framework so far, the GVM player is started with three different display panels. The bottom panel corresponds to the Interface of the pywebaudioplayer. The left top panel shows close-ups of the three singers’ faces with the lyrics of the song displayed as subtitles. To the right, the F0-trajectories (pitch tracks) are displayed together with the multi-voice note tracks for the sung notes in a “scrolling mode” where a time window of 20 seconds duration (including the actual playhead-cursor position) is shown and updated at regular intervals (similar to page turning of sheet music or scores). On startup, this display panel shows the F0-traj:wectories of the complete song which during playback is replaced by the shorter time window.
+In the ‘F0-trajectory Mode’, which is the most elaborate display mode implemented in the GVM player framework so far, the GVM player is started with three different display panels. The bottom panel corresponds to the Interface of the pywebaudioplayer. The left top panel shows close-ups of the three singers’ faces with the lyrics of the song displayed as subtitles. To the right, the F0-trajectories (pitch tracks) are displayed together with the multi-voice note tracks for the sung notes in a “scrolling mode” where a time window of 20 seconds duration (including the actual playhead-cursor position) is shown and updated at regular intervals (similar to page turning of sheet music or scores). On startup, this display panel shows the F0-trajectories of the complete song, which during playback is replaced by the shorter time window.
 
 ### Psedo-Score Mode
 
@@ -28,7 +28,7 @@ In this display mode, the note pitches have all been mapped to the center pitche
 In this mode, we mimic a Karaoke situation by displaying only the lyrics together with close-ups of the singer’s faces.
 
 ### Meta Information
-Each recording session during the 2016 field expedition was accompanied by extensive interviews not only with the singers but also with other informants from the villages to collect contextual information regarding the background and history of the singers, about local customs, etc.
+Each recording session during the 2016 field expedition was accompanied by extensive interviews not only with the singers but also with other informants from the villages to collect contextual information regarding the background and history of the singers, local customs, etc.
 
 # Installation
 Use the PHP command and run the built-in web server:
