@@ -1,13 +1,13 @@
 # GVM-Interface
 **A Interface for visualization of audio and video data.**
 
-The interface is designed for the audio representation of the Georgian Vocal Music (GVM) dataset. The original code is developed by [Pauwels and Sandler (2018)](https://github.com/resfahani/GVM-Interface#references) for pywebaudioplayer software. The interface is written in the PHP and Javascript languages.
+The interface is designed for the audio representation of the Georgian Vocal Music (GVM) dataset. This program is built on the pywebaudioplayer software developed by [Pauwels and Sandler (2018)](https://github.com/resfahani/GVM-Interface#references). The interface is written in the PHP and Javascript languages.
 
 # Getting started
 The GVM interface offers different types of audio-video visualizations. In the following, the descriptions of each visualization mode are summarized.
 
 ### main menu
-The GVM interface's man menu shows different display modes, which can be selected. 
+The GVM interface's main menu shows different display modes, which can be selected. The main menu is based on the database, which is stored in the "data" directory.
 
 ### Record Section Mode
 
@@ -15,10 +15,10 @@ In this display mode, the recording location, the relative position of the singe
 
 ### Audio Mix Mode
 
-Selecting this mode starts the original pywebaudioplayer (Pauwels & Sandler, 2018) for the three headset microphone tracks, for which the cross talk has been somewhat reduced by using the information about the voice activity of each singer contained in the corresponding larynx microphone recording. This mode is aimed at users who for whatever reasons are not interested in the video and want to spare themselves the overhead of the video player.
+Selecting this mode starts the original pywebaudioplayer (Pauwels and Sandler, 2018) for the three headset microphone tracks, for which the cross talk has been somewhat reduced by using the information about the voice activity of each singer contained in the corresponding larynx microphone recording. 
 
 ### F0-Trajectory Mode
-In the ‘F0-trajectory Mode’, which is the most elaborate display mode implemented in the GVM player framework so far, the GVM player is started with three different display panels as shown in Fig. 7. The bottom panel corresponds to the Interface of the pywebaudioplayer. The left top panel shows close-ups of the three singers’ faces with the lyrics of the song displayed as subtitles. To the right, the F0-trajectories (pitch tracks) are displayed together with the multi-voice note tracks for the sung notes in a “scrolling mode” where a time window of 20 seconds duration (including the actual playhead-cursor position) is shown and updated at regular intervals (similar to page turning of sheet music or scores). On startup, this display panel shows the F0-traj:wectories of the complete song which during playback is replaced by the shorter time window.
+In the ‘F0-trajectory Mode’, which is the most elaborate display mode implemented in the GVM player framework so far, the GVM player is started with three different display panels. The bottom panel corresponds to the Interface of the pywebaudioplayer. The left top panel shows close-ups of the three singers’ faces with the lyrics of the song displayed as subtitles. To the right, the F0-trajectories (pitch tracks) are displayed together with the multi-voice note tracks for the sung notes in a “scrolling mode” where a time window of 20 seconds duration (including the actual playhead-cursor position) is shown and updated at regular intervals (similar to page turning of sheet music or scores). On startup, this display panel shows the F0-traj:wectories of the complete song which during playback is replaced by the shorter time window.
 
 ### Psedo-Score Mode
 
