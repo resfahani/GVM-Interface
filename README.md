@@ -1,7 +1,7 @@
 # GVM-Interface
 **A Interface for visualization of audio and video data.**
 
-The interface is designed for the audio representation of the Georgian Vocal Music (GVM) dataset. The original code is developed by Pauwels and Sandler (2018) for pywebaudioplayer software. The interface is written in the PHP and Javascript languages.
+The interface is designed for the audio representation of the Georgian Vocal Music (GVM) dataset. The original code is developed by [Pauwels and Sandler (2018)](https://github.com/resfahani/GVM-Interface#references) for pywebaudioplayer software. The interface is written in the PHP and Javascript languages.
 
 # Getting started
 The GVM interface offers different types of audio-video visualizations. In the following, the descriptions of each visualization mode are summarized.
