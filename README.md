@@ -55,9 +55,9 @@ brew install php
 # References
 Pauwels, Johan & Mark B. Sandler (2018). pywebaudioplayer: Bridging the gap between audio processing code in Python and attractive visualisations based on web technology. Web Audio Conference WAC-2018, September 19–21, 2018, Berlin, Germany.  [Link](https://webaudioconf.com/_data/papers/pdf/2018/2018_19.pdf)
 
-Scherbaum, Frank,  Nana Mzhavanadze,  Sebastian Rosenzweig & Meinard Müller (2019). Multi-media recordings of traditional Georgian vocal music for computational analysis. 9th International Workshop on Folk Music Analysis, 2-4 July 2019.
+Scherbaum, Frank,  Nana Mzhavanadze,  Sebastian Rosenzweig & Meinard Müller (2019). Multi-media recordings of traditional Georgian vocal music for computational analysis. 9th International Workshop on Folk Music Analysis, 2-4 July 2019. [Link](https://www.uni-potsdam.de/fileadmin/projects/soundscapelab/PapersMusic/2019/Scherbaum_etal_FMA2019_final.pdf)
 
-Scherbaum, Frank, Sebastian Rosenzweig, Reza D.D. Esfahani,  Nana Mzhavanadze, Simon Schwär & Meinard Müller (2023).  Novel Representations of Traditional Georgian Vocal Music in Times of Online Access. In „Georgian Traditional Polyphony - Modern Trends and Development Perspectives“, Ed. Rusudan Tsurtsumia and Giorgi Donadze.
+Scherbaum, Frank, Sebastian Rosenzweig, Reza D.D. Esfahani,  Nana Mzhavanadze, Simon Schwär & Meinard Müller (2023).  Novel Representations of Traditional Georgian Vocal Music in Times of Online Access. In „Georgian Traditional Polyphony - Modern Trends and Development Perspectives“, Ed. Rusudan Tsurtsumia and Giorgi Donadze. [Link]()
 
 
 
