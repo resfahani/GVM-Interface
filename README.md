@@ -54,7 +54,7 @@ Werner, Nils, Stefan Balke, Fabian-Robert Stöter, Meinard Müller & Bernd Edl
 
 
 
-Scherbaum, Frank, Sebastian Rosenzweig, Reza D.D. Esfahani,  Nana Mzhavanadze, Simon Schwär & Meinard Müller (2023).  Novel Representations of Traditional Georgian Vocal Music in Times of Online Access. In „Georgian Traditional Polyphony - Modern Trends and Development Perspectives“, Ed. Rusudan Tsurtsumia and Giorgi Donadze. [Link]()
+Scherbaum, Frank, Sebastian Rosenzweig, Reza D.D. Esfahani,  Nana Mzhavanadze, Simon Schwär & Meinard Müller (2023).  Novel Representations of Traditional Georgian Vocal Music in Times of Online Access. In „Georgian Traditional Polyphony - Modern Trends and Development Perspectives“, Ed. Rusudan Tsurtsumia and Giorgi Donadze. [Link](https://github.com/resfahani/GVM-Interface/blob/master/Paper/Novel%20Representations%20of%20Traditional%20Georgian%20Vocal%20Music_V02-compressed.pdf)
 
 
 
