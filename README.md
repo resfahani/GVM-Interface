@@ -32,12 +32,7 @@ In this mode, we mimic a Karaoke situation by displaying only the lyrics togethe
 
 Each recording session during the 2016 field expedition was accompanied by extensive interviews not only with the singers but also with other informants from the villages to collect contextual information regarding the background and history of the singers, local customs, etc.
 
-<%Links:
-%1) https://www.audiolabs-erlangen.de/fau/professor/mueller/projects/gvm
-%2) https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum
-%3) https://www.audiolabs-erlangen.de/resources/MIR/GVMPlayer/
-%4) https://www.audiolabs-erlangen.de/resources/MIR/2018-ISMIR-LBD-ThroatMics
->
+
 
 # Installation
 Use the PHP command and run the built-in web server:
