@@ -5,15 +5,12 @@
 The GVM player was developed in the context of the Georgian Vocal Music (GVM) project.1) It was initially designed for the multimedia structure of the GVM dataset2), consisting of video-, conventional stereo-, headset-, and larynx microphone recordings, all synchronized to a common time code. It is built on the pywebaudioplayer developed by [Pauwels and Sandler (2018)](https://github.com/resfahani/GVM-Interface#references), which was extended by a component (written in the PHP and Javascript languages) to synchronously play back a video stream. The combination of the video of the singers with multiple audio tracks for which  the volumes can individually be chosen, facilitates the perception of the polyphonic structure  of the songs and allows the generation of various „pseudo ensemble tracks“ to sing along or to study the interaction of the singers with each other.
 
 
-# Getting started
-The GVM interface offers different types of audio-video visualizations. In the following, the descriptions of each visualization mode are summarized.
-
-### Display modes
+## Display modes
 
 To accommodate different audiovisual representation scenarios, for details see Scherbaum et al. (2023), we have implemented five different display modes of the GVM player. These can be accessed through what we refer to as the GVM Interface3).  From the top panel of the GVM interface’s main menu3),  different songs and display modes can be selected.  This menu is automatically built on startup, based on the collection of audio and video tracks stored in the “data“ directory and the types of which are recognized by their extension (see README.txt in the “data“ directory).  For illustration, we use five selected songs from a collection for which the raw field recordings were presented by  Scherbaum et al. (2019) and for which the original (unprocessed) recordings are easily accessible through the web-based trackswitch interface (Werner et al., 2017).4)  
 
 
-### Recording Session Mode
+## Recording Session Mode
 
 In this display mode, the recording location, the relative position of the singers as well as their (non-verbal) communication during the recording session can be observed while listening to their performance.
 
