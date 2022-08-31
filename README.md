@@ -21,7 +21,7 @@ Selecting this mode starts the original pywebaudioplayer (Pauwels and Sandler, 2
 ### F0-Trajectory Mode
 In the ‚F0-trajectory Mode’, which is the most elaborate display mode implemented in the GVM player framework so far, the GVM player is started with three different display panels. The bottom panel corresponds to the interface of the pywebaudioplayer. The left top panel shows close-ups of the three singers’ faces with the lyrics of the song displayed as subtitles. To the right, the F0-trajectories (pitch tracks) are displayed together with the multi-voice note tracks for the sung notes in a “scrolling mode” where a time window of 20 seconds duration (including the actual playhead-cursor position) is shown and updated at regular intervals (similar to page turning of sheet music or scores). On startup, this display panel shows the F0-trajectories of the complete song, which during playback is replaced by the shorter time window. Further details are given in Scherbaum et al. (2023).
 
-## Psedo-Score Mode
+## Pseudo-Score Mode
 
 In this display mode, the note pitches have all been mapped to the center pitches of their corresponding pitch group, and the display of the F0-trajectories is suppressed (as an unnecessary detail in this setting). In contrast to the F0-trajectory mode which displays exactly the pitches which were sung by the singers, this mode is an interpretation of what pitch the singers might have wanted to sing, using the pitch group means as a reference.
 
@@ -32,11 +32,11 @@ In this mode, we mimic a Karaoke situation by displaying only the lyrics togethe
 
 Each recording session during the 2016 field expedition was accompanied by extensive interviews not only with the singers but also with other informants from the villages to collect contextual information regarding the background and history of the singers, local customs, etc.
 
-Links:
-1) https://www.audiolabs-erlangen.de/fau/professor/mueller/projects/gvm
-2) https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum
-3) https://www.audiolabs-erlangen.de/resources/MIR/GVMPlayer/
-4) https://www.audiolabs-erlangen.de/resources/MIR/2018-ISMIR-LBD-ThroatMics
+%Links:
+%1) https://www.audiolabs-erlangen.de/fau/professor/mueller/projects/gvm
+%2) https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum
+%3) https://www.audiolabs-erlangen.de/resources/MIR/GVMPlayer/
+%4) https://www.audiolabs-erlangen.de/resources/MIR/2018-ISMIR-LBD-ThroatMics
 
 
 # Installation
