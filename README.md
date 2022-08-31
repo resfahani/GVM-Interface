@@ -55,7 +55,13 @@ Pauwels, Johan & Mark B. Sandler (2018). pywebaudioplayer: Bridging the gap betw
 
 Scherbaum, Frank,  Nana Mzhavanadze,  Sebastian Rosenzweig & Meinard Müller (2019). Multi-media recordings of traditional Georgian vocal music for computational analysis. 9th International Workshop on Folk Music Analysis, 2-4 July 2019. [Link](https://www.uni-potsdam.de/fileadmin/projects/soundscapelab/PapersMusic/2019/Scherbaum_etal_FMA2019_final.pdf)
 
+Werner, Nils, Stefan Balke, Fabian-Robert Stöter, Meinard Müller & Bernd Edler. 2017. trackswitch.js: A Versatile Web-Based Audio Player for Presenting Scientific Results. Web Audio Conference WAC-2017, August 21–23, 2017, London, UK. [Link](https://www.audiolabs-erlangen.de/content/05-fau/professor/00-mueller/03- publications/2017_WernerBSME_TrackswitchJSPlayer_WAC.pdf  )
+
+
+
 Scherbaum, Frank, Sebastian Rosenzweig, Reza D.D. Esfahani,  Nana Mzhavanadze, Simon Schwär & Meinard Müller (2023).  Novel Representations of Traditional Georgian Vocal Music in Times of Online Access. In „Georgian Traditional Polyphony - Modern Trends and Development Perspectives“, Ed. Rusudan Tsurtsumia and Giorgi Donadze. [Link]()
+
+
 
 
 
