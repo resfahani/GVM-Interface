@@ -18,7 +18,7 @@ The **"\$GVMID\$"** is the project name and song number. The **"\$NAME\$"** is t
 These files are the input for the Pywebaudioplayer audio software for playing, waveform visualization, and audio control. The bass, middle, and top voice files are recognized based on their abbreviation and assigned to a specific track in the software.
 
 ### Video files
-There are four video files in MP4 format with the following abbreviation names: 
+There are four video files in MP4 format with the following name structure: **"\$GVMID\$\_\$NAME\$\_\$MODE\$"**. The following is an abbreviation list of **"\$MODE\$"**:
 
 **"KAR"** stands for **"KARaoke"**
 
