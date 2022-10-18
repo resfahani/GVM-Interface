@@ -7,8 +7,11 @@ For each recorded song, there are four files in MP3 format in the folder with th
 The **"\$GVMID\$"** is the project name and song number. The **"\$NAME\$"** is the song name. The **"\$CHANNEL\$"** states the Bass voice, Middle voice, Top voice, or all voices. The following is an abbreviation list of **"\$CHANNEL\$"**:
 
 **BVCM"** is an abbreviation for **"Bass VoICE MONO."**
+
 **"MVCM"** is an abbreviation for **"Middle VoiCe Mono"**
+
 **"TVCM"** is an abbreviation for **"Top VoiCe Mono"**
+
 **"ALLS"** is an abbreviation for **"ALL voices Stereo"**
 
 These files are the input for the Pywebaudioplayer audio software for playing, waveform visualization, and audio control. The bass, middle, and top voice files are recognized based on their abbreviation and assigned to a specific track in the software.
@@ -16,8 +19,11 @@ These files are the input for the Pywebaudioplayer audio software for playing, w
 There are four video files in MP4 format with the following abbreviation names: 
 
 **"KAR"** stands for **"KARaoke"**
+
 **"GCP"** stands for **"Group Ceneter Pitches"**
+
 **"PT"** stands for **"Pitch Track"**
+
 **"REC"** stands for **"RECordings session"**
 
 These files are played in different modes which is explained in the [README](https://github.com/resfahani/GVM-Player/blob/master/README.md) file of the main code.
