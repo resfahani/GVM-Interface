@@ -26,7 +26,7 @@ There are four video files in MP4 format with the following abbreviation names:
 
 **"REC"** stands for **"RECordings session"**
 
-These files are played in different modes which is explained in the README file of the main code.
+These files are played in different modes which is explained in the [README](https://github.com/resfahani/GVM-Player/blob/master/README.md) file of the main code.
 
 
 Metadata is a PDF file that contains information such as the date and location of the recording, singers, and background information (Info file).
