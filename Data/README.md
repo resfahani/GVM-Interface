@@ -1,5 +1,5 @@
 ## Data Structure
-The data directory contains signle folders for each recorded song. The folder name begins with the GVMID and song name, such as "GVM009_BatonebisNanina_Web". The files in each folder consist of mp3, mp4, and pdf files. Following is an explanation of the structure of each file.
+Data directory contains single folders for each recorded song. The folder name begins with the GVMID and song name, such as "GVM009_BatonebisNanina_Web". The files in each folder consist of mp3, mp4, and pdf files. Following is an explanation of the structure of each file.
 
 ### Audio files
 For each recorded song, there are four files in MP3 format in the folder with the following name structure: **"\$GVMID\$\_\$NAME\$\_\$CHANNEL\$"**. 
