@@ -28,7 +28,9 @@ There are four video files in MP4 format with the following name structure: **"\
 
 **"REC"** stands for **"RECordings session"**
 
-These files are played in different modes which is explained in the [README](https://github.com/resfahani/GVM-Player/blob/master/README.md) part of the main code.
+These video files are played in different modes which is explained in the [README](https://github.com/resfahani/GVM-Player/blob/master/README.md) part of the main code.
+
+Pywebaudioplayer audio software's control panel is used to control both audio and video players. In the waveform visualization part, you can also control the audio and video players with the mouse.
 
 ### Information file
 Information file is a PDF file that contains information such as the date and location of the recording, singers, and background information (Info file).
