@@ -1,10 +1,10 @@
 # Data Structure
 
-The data folder have separate folders for each recorded song. The folder name begins with the GVMID and song name, such as "GVM009_BatonebisNanina_Web".
-
-For each recorded song, there are four files in MP3 format in the folder with the following name structure: **"\$GVMID\$\_\$NAME\$\_\$CHANNEL\$"**. 
+The data folder has separate folders for each recorded song. The folder name begins with the GVMID and song name, such as "GVM009_BatonebisNanina_Web". The files in each folder consist of mp3, mp4, and pdf files. Following is an explanation of the structure of each file.
 
 ## Audio files
+For each recorded song, there are four files in MP3 format in the folder with the following name structure: **"\$GVMID\$\_\$NAME\$\_\$CHANNEL\$"**. 
+
 The **"\$GVMID\$"** is the project name and song number. The **"\$NAME\$"** is the song name. The **"\$CHANNEL\$"** states the Bass voice, Middle voice, Top voice, or all voices. The following is an abbreviation list of **"\$CHANNEL\$"**:
 
 **BVCM"** is an abbreviation for **"Bass VoICE MONO."**
